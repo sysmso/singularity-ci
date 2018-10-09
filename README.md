@@ -3,7 +3,7 @@ CI docker container for building and pushing singularity containers to a registr
 
 ## How to upload container to sregistry with Gitlab CI
  
-Example of .gitlab-ci.yml to build and push a container named `container.simg`, based on a `Singularity` recipe file into a sregistry :
+Example of `.gitlab-ci.yml` to build and push a container named `container.simg`, based on a `Singularity` recipe file into a sregistry :
 ```
 image: sysmso/singularity-ci
 
@@ -29,7 +29,10 @@ deploy:
 You have to register 3 variables in Gitlab CI in order to use this method :
 
 `SREGISTRY_HOSTNAME` : URL of the repository
+
 `SREGISTRY_TOKEN` : Token 
+
 `SREGISTRY_USERNAME` : username in the registry
+
 
 ### Don't forget to protect these variables !!
