@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ENV SINGULARITY_VERSION=2.6.0
+ENV SINGULARITY_VERSION=2.6.1
 ENV BUILD_SOFTWARE="libtool automake gcc build-essential"
 ENV CONTAINER_SOFTWARE="git squashfs-tools libarchive-dev python python-dev python3-pip"
 ENV SREGISTRY_CLIENT=registry
