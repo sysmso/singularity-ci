@@ -5,7 +5,7 @@ CI docker container for building and pushing singularity containers to a registr
  
 Example of `.gitlab-ci.yml` to build and push a container named `container.simg`, based on a `Singularity` recipe file into a sregistry :
 ```
-image: sysmso/singularity-ci
+image: sysmso/singularity-ci:apptainer
 
 stages:
   - build
