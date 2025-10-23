@@ -1,6 +1,6 @@
 # singularity (or apptainer) in docker
 
-The Dockerfile in this repository builds Apptainer. The resulting Docker image can be used on any system with Docker to build Apptainer images and push singularity / apptainer containers to a registry.
+The Dockerfile in this repository install Apptainer. The resulting Docker image can be used on any system with Docker to build Apptainer images and push singularity / apptainer containers to a singularity registry.
 
 ## How to upload container to sregistry with Gitlab CI
  
